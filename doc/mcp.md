@@ -15,6 +15,7 @@ POST /message?sessionId=4111c49e-48ad-4bb4-ba5c-cdeb5b5dc3b3
 ``json
 {"method":"initialize","params":{"protocolVersion":"2025-03-26","capabilities":{"sampling":{},"roots":{"listChanged":true}},"clientInfo":{"name":"mcp-inspector","version":"0.14.3"}},"jsonrpc":"2.0","id":0}
 ``
+
 event: message
 data: {"jsonrpc":"2.0","id":0,"result":{"protocolVersion":"2024-11-05","capabilities":{"completions":{},"logging":{},"prompts":{"listChanged":true},"resources":{"subscribe":false,"listChanged":true},"tools":{"listChanged":true}},"serverInfo":{"name":"mcp-server","version":"1.0.0"}}}
 
