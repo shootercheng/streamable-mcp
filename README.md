@@ -73,6 +73,9 @@ curl 'http://localhost:8080/no-sse/stream-json' \
   -H 'content-type: application/json' \
   --data-raw '{"method":"tools/call","params":{"name":"calculateAdd","arguments":{"num1":1,"num2":2},"_meta":{"progressToken":2}},"jsonrpc":"2.0","id":2}'
 ```
+```json
+{"jsonrpc":"2.0","id":2,"result":{"content":[{"type":"text","text":"3"}],"isError":false}}
+```
 
 ## prompts/list
 ```shell
